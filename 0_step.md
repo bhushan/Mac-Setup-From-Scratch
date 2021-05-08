@@ -1,0 +1,3 @@
+- Install Chrome Browser set it as default.
+- Install Skype Software if needed.
+- GOTO => System Preferences => Trackpa => Point & Click => Check `Tap on Click`
