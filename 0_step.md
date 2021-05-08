@@ -12,3 +12,6 @@ Run following command in terminal to install Homebrew.
 ```
 
 It may take long time as it also installs xcode tools. Be ready with fast internet.
+
+
+Install iTerm2 for mac from https://iterm2.com/
