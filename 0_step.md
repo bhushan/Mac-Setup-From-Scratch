@@ -10,3 +10,5 @@ Run following command in terminal to install Homebrew.
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+It may take long time as it also installs xcode tools. Be ready with fast internet.
