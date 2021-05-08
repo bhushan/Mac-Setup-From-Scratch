@@ -6,6 +6,12 @@ now install ohmyzsh by running
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
+```text
+For reference only
+
+https://www.freecodecamp.org/news/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22/
+```
+
 Go to http://ethanschoonover.com/solarized
 
 Scroll down and download the Theme (solarized.zip)
