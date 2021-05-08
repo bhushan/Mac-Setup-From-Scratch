@@ -96,3 +96,8 @@ build_prompt() {
   prompt_end
 }
 ```
+
+
+Install powerline git status `pip3 install --user powerline-gitstatus`
+
+
