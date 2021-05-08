@@ -74,3 +74,25 @@ Specifically install `Meslo LG L DZ Italic for Powerline` and `Meslo LG L DZ Reg
 Goto Iterm preferences => Profiles => Text => Change Font to `Meslo LG L DZ for Powerline` and font size `15` and n/n to `120` (vertical spacing)
 
 
+To remove the username and host from the prompt, modify:
+```
+sudo vim ~/.oh-my-zsh/themes/agnoster.zsh-theme
+```
+
+to
+
+```
+## Main prompt
+build_prompt() {
+  RETVAL=$?
+  prompt_status
+  prompt_virtualenv
+  prompt_aws
+  #prompt_context
+  prompt_dir
+  prompt_git
+  prompt_bzr
+  prompt_hg
+  prompt_end
+}
+```
