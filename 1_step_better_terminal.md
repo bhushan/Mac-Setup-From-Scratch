@@ -101,3 +101,157 @@ build_prompt() {
 Install powerline git status `pip3 install --user powerline-gitstatus`
 
 
+open `/Users/bhushan/Library/Python/3.9/lib/python/site-packages/powerline/config_files/colorschemes/shell/default.json`
+
+replace its contents with
+
+```json
+{
+	"name": "Default color scheme for shell prompts",
+	"groups": {
+		"hostname": {
+			"fg": "brightyellow",
+			"bg": "mediumorange",
+			"attrs": []
+		},
+		"environment": {
+			"fg": "white",
+			"bg": "darkestgreen",
+			"attrs": []
+		},
+		"mode": {
+			"fg": "darkestgreen",
+			"bg": "brightgreen",
+			"attrs": ["bold"]
+		},
+		"attached_clients": {
+			"fg": "white",
+			"bg": "darkestgreen",
+			"attrs": []
+		},
+
+		"gitstatus": {
+			"fg": "gray8",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_branch": {
+			"fg": "gray8",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_branch_clean": {
+			"fg": "green",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_branch_dirty": {
+			"fg": "gray8",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_branch_detached": {
+			"fg": "mediumpurple",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_tag": {
+			"fg": "darkcyan",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_behind": {
+			"fg": "gray10",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_ahead": {
+			"fg": "gray10",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_staged": {
+			"fg": "green",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_unmerged": {
+			"fg": "brightred",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_changed": {
+			"fg": "mediumorange",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_untracked": {
+			"fg": "brightestorange",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus_stashed": {
+			"fg": "darkblue",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"gitstatus:divider": {
+			"fg": "gray8",
+			"bg": "gray2",
+			"attrs": []
+		}
+	},
+	"mode_translations": {
+		"vicmd": {
+			"groups": {
+				"mode": {
+					"fg": "darkestcyan",
+					"bg": "white",
+					"attrs": ["bold"]
+				}
+			}
+		}
+	}
+}
+```
+
+now activate the theme
+
+
+open `/Users/bhushan/Library/Python/3.9/lib/python/site-packages/powerline/config_files/themes/shell/default.json` and
+replace it with
+
+
+```json
+{
+	"segments": {
+		"left": [{
+				"function": "powerline.segments.shell.mode"
+			},
+			{
+				"function": "powerline.segments.common.net.hostname",
+				"priority": 10
+			},
+			{
+				"function": "powerline.segments.common.env.user",
+				"priority": 30
+			},
+			{
+				"function": "powerline.segments.shell.cwd",
+				"priority": 10
+			}, {
+				"function": "powerline_gitstatus.gitstatus",
+				"priority": 40
+			}
+		],
+		"right": []
+	}
+}
+```
+
+
+Restart the Daemon
+Save the file and run the following: powerline-daemon —-replace in the Terminal.
+
+Important Note: Every time you make changes to Powerline’s config, in addition to restarting the Terminal, you’ll also need to restart the daemon to see the changes reflected by running: powerline-daemon —-replace.
+ 
