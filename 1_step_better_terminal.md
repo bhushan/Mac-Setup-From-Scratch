@@ -1,3 +1,7 @@
+Install iTerm2 and run `touch ~/.hushlogin` to remove last login from terminal.
+
+Goto iterm Preferences => Profiles => Colors and choose Solarized Dark
+
 To install ohmyzsh we need to install wget first so run `brew install wget`
 
 now install ohmyzsh by running
@@ -27,3 +31,24 @@ developer, Right-click on the file and select “Open with” > Terminal option.
 At this point, you have the Theme installed into your Terminal. We just need to make it a default Theme.
 
 Open Terminal > Preferences > Text and select the “Solarized Dark …” theme and click on “Default”.
+
+
+Install Powerline
+
+Install python by running `brew install python`
+
+Install pip — A package manager for Python (similar to npm)
+
+```bash
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+```
+
+```bash
+python3 get-pip.py
+```
+
+now to install powerline run `pip3 install --user powerline-status`
+
+
+
