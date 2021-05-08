@@ -51,4 +51,26 @@ python3 get-pip.py
 now to install powerline run `pip3 install --user powerline-status`
 
 
+Now you can figure out the location of Powerline by running the following: `pip3 show powerline-status` Copy the value from the `Location` field.
+
+now paste the below code in ~/.zshrc to add powerline daemon
+
+```bash
+export PATH=$PATH:$HOME/Library/Python/3.9/bin
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /Users/bhushan/Library/Python/3.9/lib/python/site-packages
+```
+
+
+
+FONTS
+
+Install fonts from https://github.com/powerline/fonts
+
+Specifically install `Meslo LG L DZ Italic for Powerline` and `Meslo LG L DZ Regular for Powerline`
+
+Goto Iterm preferences => Profiles => Text => Change Font to `Meslo LG L DZ for Powerline` and font size `15` and n/n to `120` (vertical spacing)
+
 
