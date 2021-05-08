@@ -21,6 +21,7 @@ Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
 plugins=(zsh-autosuggestions)
 Start a new terminal session.
 
+install `brew install zsh-syntax-highlighting`
 
 FONTS
 
