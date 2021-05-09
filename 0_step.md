@@ -1,5 +1,5 @@
-- Install Chrome Browser set it as default.
-- Install Skype Software if needed.
+- Install Chrome Browser `brew install --cask google-chrome` set it as default.
+- Install Skype `brew install --cask skype` Software if needed.
 - GOTO => System Preferences => Trackpad => Point & Click => Check `Tap on Click`
 
 
