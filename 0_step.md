@@ -18,3 +18,5 @@ Install VSCODE and PHPSTORM
 
 
 Install Alfred
+
+Install Slack
