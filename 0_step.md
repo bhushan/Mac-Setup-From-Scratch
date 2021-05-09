@@ -15,3 +15,6 @@ It may take long time as it also installs xcode tools. Be ready with fast intern
 
 
 Install VSCODE and PHPSTORM
+
+
+Install Alfred
