@@ -14,9 +14,9 @@ Run following command in terminal to install Homebrew.
 It may take long time as it also installs xcode tools. Be ready with fast internet.
 
 
-Install VSCODE and PHPSTORM
+Install VSCODE `brew install --cask visual-studio-code` and PHPSTORM `brew install --cask phpstorm`
 
 
 Install Alfred
 
-Install Slack
+Install Slack `brew install --cask slack`
