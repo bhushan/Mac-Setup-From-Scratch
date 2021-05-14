@@ -17,6 +17,14 @@ It may take long time as it also installs xcode tools. Be ready with fast intern
 Install VSCODE `brew install --cask visual-studio-code` and PHPSTORM `brew install --cask phpstorm`
 
 
+add following lines in `~/.vimrc`
+
+```bash
+inoremap jj <Esc>
+set clipboard+=unnamed
+```
+
+
 Install Alfred
 
 Install Slack `brew install --cask slack`
