@@ -1,7 +1,3 @@
-- Install Chrome Browser `brew install --cask google-chrome` set it as default.
-- Install Skype `brew install --cask skype` Software if needed.
-- GOTO => System Preferences => Trackpad => Point & Click => Check `Tap on Click`
-
 
 - Install Homebrew
 
@@ -12,6 +8,12 @@ Run following command in terminal to install Homebrew.
 ```
 
 It may take long time as it also installs xcode tools. Be ready with fast internet.
+
+
+- Install Chrome Browser `brew install --cask google-chrome` set it as default.
+- Install Skype `brew install --cask skype` Software if needed.
+- GOTO => System Preferences => Trackpad => Point & Click => Check `Tap on Click`
+
 
 
 Install VSCODE `brew install --cask visual-studio-code` and PHPSTORM `brew install --cask phpstorm`
