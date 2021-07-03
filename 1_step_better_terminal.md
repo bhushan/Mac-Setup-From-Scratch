@@ -1,7 +1,5 @@
 Install iTerm2 and run `touch ~/.hushlogin` to remove last login from terminal.
 
-Goto iterm Preferences => Profiles => Colors and choose Solarized Dark
-
 To install ohmyzsh we need to install wget first so run `brew install wget`
 
 now install ohmyzsh by running
