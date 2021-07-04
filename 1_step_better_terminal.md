@@ -41,3 +41,7 @@ build_prompt() {
   prompt_end
 }
 ```
+
+
+
+NOTE: If you messed up with iterm settings and want to revert it to default state then Delete `~/Library/Preferences/com.googlecode.iterm2.plist`
