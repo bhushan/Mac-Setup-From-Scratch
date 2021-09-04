@@ -29,5 +29,11 @@ add following lines in `~/.vimrc`
 inoremap jj <Esc>
 set clipboard+=unnamed
 ```
+and after that run below two commands to use same settings in ideavim (PHPStorm plugin)
+
+```bash
+touch ~/.ideavimrc
+echo 'source ~/.vimrc' >> ~/.ideavimrc
+```
 
 Install Slack `brew install --cask slack`
