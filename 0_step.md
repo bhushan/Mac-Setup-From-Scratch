@@ -11,6 +11,12 @@ Run following command in terminal to install Homebrew.
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+and then run below example commands, you will see same commands in your terminal once homebrew is installed
+
+```bash
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/rb/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
 It may take long time as it also installs xcode tools. Be ready with fast internet.
 
