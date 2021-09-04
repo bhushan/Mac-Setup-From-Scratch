@@ -1,6 +1,7 @@
 - Install alfred app from [here](https://www.alfredapp.com)
 - Install Clocker app from Appstore
 - GOTO => System Preferences => Trackpad => Point & Click => Check `Tap on Click`
+- GOTO => System Preferences => Dock & Menu Bar => Untick `Show recent applications in dock`
 - Install Homebrew
 
 Run following command in terminal to install Homebrew.
