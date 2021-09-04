@@ -1,3 +1,4 @@
+Goto System Preferences -> Trackpad ->  Point & Click -> check Tap to click
 
 - Install Homebrew
 
