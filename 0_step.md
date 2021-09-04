@@ -29,6 +29,4 @@ inoremap jj <Esc>
 set clipboard+=unnamed
 ```
 
-Install Alfred
-
 Install Slack `brew install --cask slack`
