@@ -10,6 +10,12 @@ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O 
 
 install `brew install zsh-syntax-highlighting`
 
+add below line to your `~/.zshrc` to enable syntax highlighting
+
+```bash
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
 FONTS
 
 Install fonts from https://github.com/powerline/fonts
