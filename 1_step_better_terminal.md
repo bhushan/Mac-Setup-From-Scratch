@@ -20,7 +20,7 @@ FONTS
 
 Install fonts from https://github.com/powerline/fonts
 
-Specifically install `Meslo LG L DZ Italic for Powerline` and `Meslo LG L DZ Regular for Powerline`
+Specifically install [Meslo LG L DZ Italic for Powerline](https://github.com/powerline/fonts/blob/master/Meslo%20Dotted/Meslo%20LG%20L%20DZ%20Italic%20for%20Powerline.ttf) and [Meslo LG L DZ Regular for Powerline](https://github.com/powerline/fonts/blob/master/Meslo%20Dotted/Meslo%20LG%20L%20DZ%20Regular%20for%20Powerline.ttf)
 
 Goto Iterm preferences => Profiles => Text => Change Font to `Meslo LG L DZ for Powerline` and font size `15` and n/n to `120` (vertical spacing)
 
