@@ -1,5 +1,7 @@
 - Install alfred app from [here](https://www.alfredapp.com)
 
+- Install Clocker app from Appstore
+
 Goto System Preferences -> Trackpad ->  Point & Click -> check Tap to click
 
 - Install Homebrew
