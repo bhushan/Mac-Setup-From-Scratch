@@ -1,18 +1,30 @@
 Install latest PHP
 
-`brew install php`
+```bash
+brew install php
+```
 
 Install PHP CS FIXER
-`brew install php-cs-fixer`
+
+```bash
+brew install php-cs-fixer
+```
 
 Setup Xdebug
 
 check that the path is to the correct php executable, and pecl is available
-`which pecl`
+
+```bash
+which pecl
+```
+
 returns: /usr/local/opt/php@8.0/bin/pecl
 
 install xdebug, see https://xdebug.org/docs/install#pecl
-`pecl install xdebug`
+
+```bash
+pecl install xdebug
+```
 
 check that everything worked
 `php --version`
@@ -22,7 +34,9 @@ like:  with Xdebug v3.0.4, Copyright (c) 2002-2021, by Derick Rethans
 
 Install Composer 
 
-`brew install composer`
+```bash
+brew install composer
+```
 
 and run
 
