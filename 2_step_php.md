@@ -23,3 +23,9 @@ like:  with Xdebug v3.0.4, Copyright (c) 2002-2021, by Derick Rethans
 Install Composer 
 
 `brew install composer`
+
+and run
+
+```bash
+echo 'export PATH="$HOME/. composer/vendor/bin:$PATH"' >> ~/.zshrc
+```
