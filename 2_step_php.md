@@ -41,5 +41,5 @@ brew install composer
 and run
 
 ```bash
-echo 'export PATH="$HOME/. composer/vendor/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.zshrc
 ```
