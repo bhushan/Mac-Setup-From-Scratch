@@ -18,6 +18,7 @@ alias art="php artisan "
 alias migrate="php artisan migrate"
 alias fresh="php artisan migrate:fresh"
 alias seed="php artisan migrate:fresh --seed"
+alias pstorm="open -a PhpStorm "
 ```
 now run `echo 'source ~/.aliases' >> ~/.zshrc`
 
