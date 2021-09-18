@@ -49,3 +49,18 @@ and run
 ```bash
 echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.zshrc
 ```
+
+Install Laravel Valet
+
+```bash
+composer global require laravel/valet
+```
+
+and run 
+
+```bash
+valet install
+```
+
+to install valet
+
