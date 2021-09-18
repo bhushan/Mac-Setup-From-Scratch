@@ -4,6 +4,12 @@ Install latest PHP
 brew install php
 ```
 
+and run below command to prefer brew applications first
+
+```bash
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+```
+
 Install PHP CS FIXER
 
 ```bash
