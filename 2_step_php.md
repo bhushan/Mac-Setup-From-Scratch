@@ -16,6 +16,8 @@ Install PHP CS FIXER
 brew install php-cs-fixer
 ```
 
+While setting up rule you can check https://gist.github.com/bhushan/e2779b2cd587aebe0dee6063e2f6cd94 here for more information.
+
 Setup Xdebug
 
 check that the path is to the correct php executable, and pecl is available
