@@ -13,7 +13,7 @@ install `brew install zsh-syntax-highlighting`
 add below line to your `~/.zshrc` to enable syntax highlighting
 
 ```bash
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+echo 'source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 ```
 
 FONTS
