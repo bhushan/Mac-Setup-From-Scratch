@@ -36,4 +36,10 @@ touch ~/.ideavimrc
 echo 'source ~/.vimrc' >> ~/.ideavimrc
 ```
 
+Mapping Caps Lock to Escape key
+Open System Preferences and click on 'Keyboard'
+Click on 'Modifier Keys...'
+For 'Caps Lock (⇪) Key', choose '⎋ Escape'
+Click 'OK'
+
 Install Slack `brew install --cask slack`
