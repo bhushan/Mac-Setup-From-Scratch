@@ -31,8 +31,6 @@ To remove the username and host from the prompt, modify:
 sudo vim ~/.oh-my-zsh/themes/agnoster.zsh-theme
 ```
 
-remove plugins(git) from zshrc config, it adds git aliases but we already have covered them in  .aliases file 
-
 to
 
 ```
@@ -54,3 +52,7 @@ build_prompt() {
 
 
 NOTE: If you messed up with iterm settings and want to revert it to default state then Delete `~/Library/Preferences/com.googlecode.iterm2.plist`
+
+
+remove plugins(git) from zshrc config, it adds git aliases but we already have covered them in  .aliases file 
+
